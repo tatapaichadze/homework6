@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+        <suite parallel="tests" thread-count="3" name="Automation Suite">
+
+    <test parallel="tests" name="TestSuit3">
+    <classes>
+    <class name="secondlect.sctst"/>
+</classes>
+</test>
+
+
+
+    <test parallel="tests" name="TestSuit3">
+
+    <classes>
+    <class name="secondlect.second"/>
+</classes>
+</test>
+
+</suite>
